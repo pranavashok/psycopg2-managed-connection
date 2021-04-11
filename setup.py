@@ -32,7 +32,7 @@ setup(
         'setuptools>=8.0',
     ),
     install_requires=(
-        'psycopg2~=2.6',
+        'psycopg2-binary~=2.8',
     ),
     packages=find_packages(PACKAGE_DIR),
     package_dir={
@@ -43,6 +43,6 @@ setup(
         'test': PyTest,
     },
     tests_require=(
-        'pytest~=2.7',
+        'pytest~=6.2',
     ),
 )
